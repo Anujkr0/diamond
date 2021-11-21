@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond</title>
+</head>
+<body>
+     <script>
+         for(i=1; i<=5; i++) {
+             for(j=4; j>=i; j--) {
+                 document.write('&nbsp');
+             }
+
+             for(k=1; k<(i*2); k++) {
+                 document.write('*');
+             }
+             document.write('<br>')
+         }
+         for(x=1; x<=5; x++) {
+             for(y=1; y<=x;  y++){
+                 document.write('&nbsp');
+             }
+
+             for(z=9; z>(x*2); z--) {
+                 document.write('*')
+             }
+             document.write('<br>')
+         }
+     </script>  
+</body>
+</html>
